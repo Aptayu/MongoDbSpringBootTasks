@@ -3,9 +3,9 @@ package com.stackroute.assignment.controller;
 import com.stackroute.assignment.domain.Track;
 import com.stackroute.assignment.exception.TrackNotFoundException;
 import com.stackroute.assignment.trackservice.TrackService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,7 +15,7 @@ public class TrackController {
 
         TrackService trackService;
 
-
+        @Autowired
         public TrackController(com.stackroute.assignment.trackservice.TrackService trackService) {
             this.trackService = trackService;
         }

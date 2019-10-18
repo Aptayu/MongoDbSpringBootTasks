@@ -2,4 +2,4 @@
 
 Application should allow all the users to perform the following activities: a. Save track information such as trackId, trackName, comments of the track. b. Display saved track. c. Update comments of saved track. d. Remove track 5 Non-Functional Requirements 1. App should be accessible from any location with access to the Internet.
 App should be responsive to display consistently across multiple device screens.
-App should have an intuitive UI that can be operated by novice expert Internet users. 6 Tools and technologies to be used To Be Decided
+App should have an intuitive     UI that can be operated by novice expert Internet users. 6 Tools and technologies to be used To Be Decided
